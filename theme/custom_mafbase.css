@@ -341,7 +341,7 @@ input[type="number"] {
 }
 
 .search-box .inputbox {
-	height: 30px; 
+	height: 31px; 
 }
 
 #search-box input.inputbox {
@@ -681,6 +681,11 @@ dl.row-item dd.topics,dl.row-item  dd.posts {
     font-weight: bold !important;
 }
 
+.recipients .username-coloured {
+	position: relative;
+	top: 1px;
+}
+
 dl.row-item  dd.views {
 	display: none;
 }
@@ -689,4 +694,12 @@ ul.topiclist dt .list-inner {
 }
 ul.topiclist dt {
 	margin-right: -250px;
+}
+
+.topicreview .postbody {
+	width: 100% !important;
+}
+
+#viewfolder .action-bar {
+	margin-bottom: 0px;
 }
