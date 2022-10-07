@@ -57,6 +57,9 @@
 	.postprofile {
 		margin-right: 1%;
 	}
+	.postprofile .has-avatar .avatar-container {
+		margin-bottom: 15px;0
+	}
 }
 @media (min-width: 701px) {
 
@@ -313,10 +316,6 @@ fieldset.polls dd div {
 
 .postprofile dt.no-profile-rank, .postprofile dd.profile-rank, .postprofile .search-result-date {
 	margin-bottom: initial;
-}
-
-.postprofile .has-avatar .avatar-container {
-	margin-bottom: 15px;
 }
 
 .postprofile .avatar img {
@@ -635,7 +634,7 @@ dl.row-item dd.topics,dl.row-item  dd.posts {
 	.forum-title, .topic-title, .solo {
 		margin-left : 5px;
 	}
-	.bar-top, .bar-bottom, .actions-jump, #activity_overview , .quickmod{
+	.bar-top, .bar-bottom, .actions-jump, .quickmod{
 		padding : 0px 5px;
 	}
 	.action-bar {
@@ -702,4 +701,52 @@ ul.topiclist dt {
 
 #viewfolder .action-bar {
 	margin-bottom: 0px;
+}
+
+.mark input[type=checkbox] {
+	position: relative;
+	left: 4px;
+}
+
+.forum-title {
+	margin-bottom: 0;
+}
+
+#activity_overview {
+	padding : 0px 5px;
+}
+
+#activity_overview{
+	margin-bottom: 5px;
+}
+
+.activity-overview th {
+	padding-top: 4px !important;
+	font-weight: bold;
+}
+
+.activity-overview td {
+	border: none !important;
+}
+
+.activity-overview caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.activity-overview-pm-selected {
+	margin-top: 15px;
+}
+
+@media (max-width: 700px){
+	.activity-overview caption {
+		display: block;
+		margin-top: 7px;
+	}
+
+	.activity-overview input[type=checkbox] {
+		position: relative;
+		bottom: 1px;
+	}
 }
