@@ -58,7 +58,7 @@
 		margin-right: 1%;
 	}
 	.postprofile .has-avatar .avatar-container {
-		margin-bottom: 15px;0
+		margin-bottom: 15px;
 	}
 }
 @media (min-width: 701px) {
@@ -81,13 +81,13 @@
 		top: 5px;
 	}
 }
-
+/***
 @media (max-width: 992px) {
 	.row .pagination {
 		text-align: initial;
 		float: initial;
 		margin-top: initial;
-		margin-bottom: initials;
+		margin-bottom: initial;
 	}
 }
 
@@ -95,6 +95,14 @@
 	.row .pagination {
 		margin-top: initial;
 		margin-bottom: initial;
+	}
+}
+***/
+
+@media (max-width: 700px) {
+	.row .pagination {
+		float: right;
+		text-align: right;
 	}
 }
 
@@ -195,6 +203,11 @@ div.dicetop fixed {
 
 div.diceroll emph {
    font-weight: bold;
+}
+
+.row .list-inner {
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
 li.header dl.row-item dt .list-inner {
@@ -449,11 +462,11 @@ h2 {
 li.header {
 	border-radius: 5px 5px 0 0;
 }
-
+/***
 ul.topiclist.forums, ul.topiclist.topics {
 	padding: 10px 0;
 }
-
+***/
 ul.topiclist.forums li.row, ul.topiclist.topics li.row {
 	margin: 0 10px;
 }
@@ -553,12 +566,13 @@ ul.pmlist li.row dl.row-item {
 .site-description {
 	width : auto;
 }
-
+/***
 @media (max-width: 700px){
 	.responsive-show {
 		display: none !important;
 	}
 }
+***/
 @media (max-width: 750px) {
 	i.fa-bell + span {
 		display: none;
@@ -699,7 +713,7 @@ ul.topiclist dt {
 }
 ***/
 
-.topicreview .postbody {
+.topicreview .postbody, .mcp-main .postbody {
 	width: 100% !important;
 }
 
@@ -757,4 +771,10 @@ ul.topiclist dt {
 
 .postbody a {
 	text-decoration: inherit;
+}
+
+@media (min-width: 701px) {
+	.post-notice {
+		margin-top: 25px;
+	}
 }
