@@ -201,11 +201,11 @@ li.header dl.row-item dt .list-inner {
 	padding-left: 12px;
 	padding-right: 38px;
 }
-
+/***
 dl.row-item dt .list-inner {
 	padding-left: 65px;
 }
-
+***/
 dd.posts, dd.topics, dd.views, dd.extra, dd.mark {
 	font-size: 1em;
 	font-weight: bold;
@@ -625,12 +625,14 @@ dl.row-item dd.topics,dl.row-item  dd.posts {
 	.postbody {
 		float: none;
 	}
+	/**
 	li.row dl.row-item {
 		background-image : none;
 	}
 	dl.row-item dt .list-inner {
 		padding-left : 2px;
 	}
+	**/
 	.forum-title, .topic-title, .solo {
 		margin-left : 5px;
 	}
@@ -688,12 +690,14 @@ dl.row-item dd.topics,dl.row-item  dd.posts {
 dl.row-item  dd.views {
 	display: none;
 }
+/***
 ul.topiclist dt .list-inner {
     margin-right: 250px;
 }
 ul.topiclist dt {
 	margin-right: -250px;
 }
+***/
 
 .topicreview .postbody {
 	width: 100% !important;
@@ -749,4 +753,8 @@ ul.topiclist dt {
 		position: relative;
 		bottom: 1px;
 	}
+}
+
+.postbody a {
+	text-decoration: inherit;
 }
