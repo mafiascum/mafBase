@@ -778,3 +778,89 @@ ul.topiclist dt {
 		margin-top: 25px;
 	}
 }
+
+.signature-collapsed {
+	display: none;
+}
+
+#pt_user_list,
+#pt_mod_list {
+	list-style-type: none;
+}
+
+.private {
+	color: black;
+	text-shadow: non
+	e;
+}
+.private .content, .private .postprofile, .private .postprofile strong,.private .author, .private .post:target .content {
+	color: #000;
+}
+.private .post , .private .postbody{
+	color: #000;
+	text-shadow: none;
+}
+.private h3 {
+	color: #fff;
+}
+.private {
+	color: #fff !important;
+	background: #1c1c36;
+}
+.private .panel {
+	color: #fff;
+}
+.private a, .private a:hover {
+	color: #fff;
+}
+.private h2,
+.private label
+.private label:hover {
+	color: #fff;
+}
+.private .format-buttons button,
+.private .format-buttons button i {
+	color: #000;
+}
+.private .tabs .tab > a {
+	color: #fff;
+	background-color: #606098;
+	background-image: none;
+	border: none;
+	box-shadow: none;
+}
+.private fieldset dl:hover dt label {
+	color: #fff;
+}
+.private dd label {
+	color: #fff;
+}
+.private .action-bar a.button {
+	color: #000;
+}
+.private .back2top {
+	border-color: #000;
+}
+.private .postprofilecontainer {
+	border-color: #000;
+}
+.private .bg1 {
+	background: #606098;
+}
+.private .headerbar {
+	background-image: none;
+	background-color: #70709f;
+}
+.private .bg2 {
+	background: #70709f;
+}
+.private .panel, .private .navbar{
+	background: #2f2f64;
+}
+.private .copyright {
+	background: #1c1c36;
+	color: #fff;
+}
+.private .corners-top, .private .corners-bottom {
+	background-image: none;
+}

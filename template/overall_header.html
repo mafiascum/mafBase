@@ -73,11 +73,11 @@
 <!-- EVENT overall_header_stylesheets_after -->
 
 </head>
-<body id="phpbb" class="nojs notouch section-{SCRIPT_NAME} {S_CONTENT_DIRECTION} {BODY_CLASS} {T_THEME_NAME}">
+<body id="phpbb" class="nojs notouch section-{SCRIPT_NAME} {S_CONTENT_DIRECTION} {BODY_CLASS} {T_THEME_NAME}<!-- IF IS_PRIVATE_TOPIC --> private<!-- ENDIF -->">
 
 <!-- EVENT overall_header_body_before -->
 
-<div id="wrap" class="wrap">
+<div id="wrap" class="wrap<!-- IF IS_PRIVATE_TOPIC --> private<!-- ENDIF -->">
 	<a id="top" class="top-anchor" accesskey="t"></a>
 	<div id="page-header">
 		<div class="headerbar" role="banner">
