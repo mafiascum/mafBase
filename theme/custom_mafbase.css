@@ -681,12 +681,14 @@ dl.row-item dd.topics,dl.row-item  dd.posts {
 	border-spacing: 2px;
 }
 
-.submit-buttons {
+#qr_postform .submit-buttons,
+#postform .submit-buttons {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: center;
 }
-.submit-buttons input[type=submit]:not(:last-child) {
+#qr_postform .submit-buttons input[type=submit]:not(:last-child),
+#postform .submit-buttons input[type=submit]:not(:last-child) {
 	margin-left: 5px;
 }
 
