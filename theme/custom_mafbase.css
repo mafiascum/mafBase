@@ -454,7 +454,6 @@ h2 {
 
 .forabg, .forumbg {
 	margin-bottom: 20px;
-	padding: 0;
 	clear: both;
 	border-radius: 7px;
 }
@@ -467,9 +466,11 @@ ul.topiclist.forums, ul.topiclist.topics {
 	padding: 10px 0;
 }
 ***/
+/**
 ul.topiclist.forums li.row, ul.topiclist.topics li.row {
 	margin: 0 10px;
 }
+**/
 
 .panel {
 	margin-bottom: 15px;
