@@ -47,16 +47,15 @@
 }
 
 @media (min-width: 850px) {
-	.postbody { width: 82% !important; }
-	.postprofile {
-		margin-right: 1%;
+	.postbody {
+		/** width: 82% !important; **/
+		width: auto !important;
+		float: none;
+		overflow: hidden;
 	}
 }
 @media (min-width: 700px) {
 	.postbody { width: 82%; }
-	.postprofile {
-		margin-right: 1%;
-	}
 	.postprofile .has-avatar .avatar-container {
 		margin-bottom: 15px;
 	}
@@ -323,7 +322,7 @@ fieldset.polls dd div {
 }
 
 .postprofile {
-	width: 16%;
+	max-width: 250px;
 	float: left;
 }
 
@@ -608,7 +607,7 @@ dl.row-item dd.topics,dl.row-item  dd.posts {
 	display : none;
 }
 .postbody {
-	float: right;
+	float: none;
 }
 .pagination .button {
 	font-weight: normal;
