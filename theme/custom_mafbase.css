@@ -57,13 +57,18 @@
 @media (min-width: 700px) {
 	.postbody { width: 82%; }
 	.postprofile .has-avatar .avatar-container {
+		margin-top: 12px;
+		/**
 		margin-bottom: 15px;
+		**/
 	}
 }
 @media (min-width: 701px) {
 
 	.post:not(.search) .postprofile dt {
+		/***
 		margin-top: 30px;
+		***/
 	}
 
 	.postprofile dt.no-profile-rank, .postprofile dd.profile-rank, .postprofile .search-result-date {
@@ -71,15 +76,44 @@
 	}
 
 	.postprofile dd.profile-rank {
+		/**
 		position: absolute;
 		top: 20px;
+		**/
 	}
 
 	.post:not(.search) .postprofile .username-coloured, .post:not(.search) .postprofile .username {
+		/**
 		position: absolute;
 		top: 5px;
+		**/
 	}
 }
+
+.post:not(.pm) .has-profile-rank:not(.visible) {
+	display: none;
+}
+.post:not(.pm) .profile-rank:not(.visible) {
+	display: none;
+}
+
+@media (min-width: 700px) {
+	.post:not(.pm) .has-profile-rank.mobile-only {
+		display: none;
+	}
+	.post:not(.pm) .profile-rank.mobile-only {
+		display: none;
+	}
+}
+@media (max-width: 699px) {
+	.post:not(.pm) .has-profile-rank:not(.mobile-only) {
+		display: none;
+	}
+	.post:not(.pm) .profile-rank:not(.mobile-only) {
+		display: none;
+	}
+}
+
 /***
 @media (max-width: 992px) {
 	.row .pagination {
