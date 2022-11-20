@@ -614,6 +614,12 @@ ul.pmlist li.row dl.row-item {
 	i.fa-inbox + span {
 		display: none;
 	}
+	i.fa-bookmark + span {
+		display: none;
+	}
+	i.fa-check + span {
+		display: none;
+	}
 }
 
 @media (max-width: 600px) {
