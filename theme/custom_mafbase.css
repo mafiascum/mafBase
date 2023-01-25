@@ -906,6 +906,15 @@ ul.topiclist dt {
 .private .corners-top, .private .corners-bottom {
 	background-image: none;
 }
+.private .dropdown,
+.private .dropdown a,
+.private .dropdown a:hover {
+	color: #000;
+}
+
+.private .quickmod label {
+	color: #fff;
+}
 
 /* Unread PM Indicator */
 .unread_flag{
