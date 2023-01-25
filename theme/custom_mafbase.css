@@ -944,3 +944,7 @@ ul.topiclist dt {
 .indi-legend{
 	margin-bottom:6px;
 }
+
+sub {
+	line-height: unset;
+}
