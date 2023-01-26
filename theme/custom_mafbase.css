@@ -368,6 +368,13 @@ fieldset.polls dd div {
 	display: initial;
 }
 
+@media (max-width: 849px) {
+	.postprofile .avatar {
+		max-width: 100px;
+		max-height: 120px;
+	}
+}
+
 .search .postprofile {
 	width: 16%;
 }
