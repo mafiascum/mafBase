@@ -955,3 +955,7 @@ ul.topiclist dt {
 sub {
 	line-height: unset;
 }
+
+.signature {
+	font-size: 0.9em;
+}
