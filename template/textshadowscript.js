@@ -93,7 +93,10 @@ function hslToRgb(h, s, l){
 	}
 
 function adjustColor(index, element) {
+	
 	if(!$("body").hasClass("mafBlack"))
+		return;
+	if(element.tagName === 'BR')
 		return;
 	
 	var $element = $(element);
