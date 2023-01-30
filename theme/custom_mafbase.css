@@ -293,11 +293,11 @@ p.author {
 }
 
 blockquote {
-	margin: 0.5em 1px 20px 25px;
+	margin: 0.5em 1px 0px 25px;
 }
 
 blockquote blockquote {
-	margin: 0.5em 1px 20px 15px;
+	margin: 0.5em 1px 0px 15px;
 }
 
 blockquote cite {
